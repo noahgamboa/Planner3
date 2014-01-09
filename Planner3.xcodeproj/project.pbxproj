@@ -14,13 +14,14 @@
 		4F30D11818158171004D7FD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F30D11718158171004D7FD0 /* main.m */; };
 		4F30D11C18158171004D7FD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F30D11B18158171004D7FD0 /* AppDelegate.m */; };
 		4F30D11F18158171004D7FD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F30D11D18158171004D7FD0 /* Main.storyboard */; };
-		4F30D12218158171004D7FD0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F30D12118158171004D7FD0 /* ViewController.m */; };
 		4F30D12418158171004D7FD0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F30D12318158171004D7FD0 /* Images.xcassets */; };
 		4F30D12B18158171004D7FD0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F30D12A18158171004D7FD0 /* XCTest.framework */; };
 		4F30D12C18158171004D7FD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F30D10B18158171004D7FD0 /* Foundation.framework */; };
 		4F30D12D18158171004D7FD0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F30D10F18158171004D7FD0 /* UIKit.framework */; };
 		4F30D13518158171004D7FD0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F30D13318158171004D7FD0 /* InfoPlist.strings */; };
 		4F30D13718158171004D7FD0 /* Planner3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F30D13618158171004D7FD0 /* Planner3Tests.m */; };
+		4F89D6BB181820A0000E0E77 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F89D6BA181820A0000E0E77 /* MainTableViewController.m */; };
+		4F89D6BE18182288000E0E77 /* EditClassesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F89D6BD18182288000E0E77 /* EditClassesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +46,16 @@
 		4F30D11A18158171004D7FD0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4F30D11B18158171004D7FD0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4F30D11E18158171004D7FD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4F30D12018158171004D7FD0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4F30D12118158171004D7FD0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4F30D12318158171004D7FD0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4F30D12918158171004D7FD0 /* Planner3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Planner3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F30D12A18158171004D7FD0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4F30D13218158171004D7FD0 /* Planner3Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Planner3Tests-Info.plist"; sourceTree = "<group>"; };
 		4F30D13418158171004D7FD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4F30D13618158171004D7FD0 /* Planner3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Planner3Tests.m; sourceTree = "<group>"; };
+		4F89D6B9181820A0000E0E77 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		4F89D6BA181820A0000E0E77 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		4F89D6BC18182288000E0E77 /* EditClassesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditClassesViewController.h; sourceTree = "<group>"; };
+		4F89D6BD18182288000E0E77 /* EditClassesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditClassesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +118,10 @@
 				4F30D11A18158171004D7FD0 /* AppDelegate.h */,
 				4F30D11B18158171004D7FD0 /* AppDelegate.m */,
 				4F30D11D18158171004D7FD0 /* Main.storyboard */,
-				4F30D12018158171004D7FD0 /* ViewController.h */,
-				4F30D12118158171004D7FD0 /* ViewController.m */,
+				4F89D6BC18182288000E0E77 /* EditClassesViewController.h */,
+				4F89D6BD18182288000E0E77 /* EditClassesViewController.m */,
+				4F89D6B9181820A0000E0E77 /* MainTableViewController.h */,
+				4F89D6BA181820A0000E0E77 /* MainTableViewController.m */,
 				4F30D12318158171004D7FD0 /* Images.xcassets */,
 				4F30D11218158171004D7FD0 /* Supporting Files */,
 			);
@@ -249,9 +254,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F30D12218158171004D7FD0 /* ViewController.m in Sources */,
 				4F30D11C18158171004D7FD0 /* AppDelegate.m in Sources */,
+				4F89D6BE18182288000E0E77 /* EditClassesViewController.m in Sources */,
 				4F30D11818158171004D7FD0 /* main.m in Sources */,
+				4F89D6BB181820A0000E0E77 /* MainTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +466,7 @@
 				4F30D13C18158171004D7FD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F30D13D18158171004D7FD0 /* Build configuration list for PBXNativeTarget "Planner3Tests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +475,7 @@
 				4F30D13F18158171004D7FD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
